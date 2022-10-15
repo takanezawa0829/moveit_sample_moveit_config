@@ -1,0 +1,15 @@
+controller_list:
+  - name: fake_single_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - rev1
+      - rev2
+      - rev3
+      - d_rev1
+      - d_rev2
+      - d_rev3
+initial:  # Define initial robot poses per group
+#  - group: single
+#    pose: home
+
+  []

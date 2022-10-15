@@ -1,0 +1,12 @@
+controller_list:
+  - name: single_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: True
+    joints:
+      - rev1
+      - rev2
+      - rev3
+      - d_rev1
+      - d_rev2
+      - d_rev3

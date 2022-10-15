@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: moveit_sample_description
+    relative_path: urdf/moveit_sample.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/moveit_sample.srdf
+  CONFIG:
+    author_name: TakumuTakanezawa
+    author_email: s20c1066ab@s.chibakoudai.jp
+    generated_timestamp: 1665800420

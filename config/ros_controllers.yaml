@@ -1,0 +1,40 @@
+single_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+    - rev1
+    - rev2
+    - rev3
+    - d_rev1
+    - d_rev2
+    - d_rev3
+  gains:
+    rev1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    rev2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    rev3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    d_rev1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    d_rev2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    d_rev3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
